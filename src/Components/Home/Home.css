@@ -1,0 +1,409 @@
+ /* Feature Section */
+
+ .feature_card {
+     background-color: #190200 !important;
+     color: #fff !important;
+     text-align: center;
+     padding: 40px 10px;
+ }
+
+ .feature_card:hover {
+     background-color: #fff !important;
+     color: #000 !important;
+ }
+
+ /* Practice Section */
+
+ .practice_card {
+     padding: 40px 30px;
+ }
+
+ .practice_card:hover {
+     box-shadow: 0px 14px 32px 0px rgba(73, 73, 73, 0.27);
+     color: #C6AC82;
+ }
+
+ .practice_card p {
+     color: #555555;
+ }
+
+ /* Testimonial Section */
+
+ .portfolio_Card {
+     display: flex !important;
+ }
+
+ .testimonial_card_head {
+     color: #000;
+     font-size: 21px !important;
+     font-weight: 700 !important;
+ }
+
+ .testimonial_card_p {
+     color: #555555;
+     font-size: 18px !important;
+     line-height: 1.722 !important;
+ }
+
+ .testimonial_card_italic {
+     color: #949494;
+     font-size: 14px;
+     font-style: italic;
+     padding: 10px 0px;
+ }
+
+ /* Slick Carousel */
+
+ .slick-dots li button:before {
+     font-family: 'slick';
+     font-size: 20px !important;
+     line-height: 20px;
+     position: absolute;
+     top: 20px !important;
+     left: 0;
+     width: 20px;
+     height: 20px;
+     content: '•';
+     text-align: center;
+     opacity: .25;
+     color: black;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+ }
+
+
+ /* BACKGROUND MOVE */
+ .button-background-move {
+     font-size: 16px;
+     font-weight: 200;
+     letter-spacing: 1px;
+     padding: 13px 20px 13px;
+     outline: 0;
+     border: 1px solid black;
+     cursor: pointer;
+     position: relative;
+     background-color: rgba(0, 0, 0, 0);
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+ }
+
+ .button-background-move:after {
+     content: "";
+     background-color: #ffe54c;
+     width: 100%;
+     z-index: -1;
+     position: absolute;
+     height: 100%;
+     top: 7px;
+     left: 7px;
+     transition: 0.2s;
+ }
+
+ .button-background-move:hover:after {
+     top: 0px;
+     left: 0px;
+ }
+
+ /* BACKGROUND MOVE END */
+
+
+ /* FORM BTN */
+
+ .form_btn:hover {
+     background-color: #000000 !important;
+ }
+
+ /* PORTFOLIO OVERLAY */
+
+ .carousel-item {
+     position: relative;
+ }
+
+ .overlay {
+     position: absolute;
+     inset: 0px;
+     background-color: #000000;
+     color: #fff;
+     cursor: pointer;
+     opacity: 0;
+     transition: .5s ease;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: end;
+ }
+
+ .carousel-item:hover .overlay {
+     margin: 0px 6px;
+     opacity: 1;
+     padding: 20px 0px;
+ }
+
+ .overlay {
+     position: absolute;
+     transition: all .3s ease;
+     opacity: 0;
+     background: rgb(24 24 24 / 60%);
+     bottom: 0px;
+ }
+
+
+ .portfolio_icon_box {
+     background-color: #c6ac82;
+     padding: 10px 13px 5px 13px;
+     border-radius: 5px;
+     color: #fff;
+ }
+
+ /* Slick-Dots */
+
+ .slick-dots {
+     position: absolute;
+     bottom: -30px;
+     display: block;
+     width: 100%;
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     text-align: center;
+ }
+
+
+ @media only screen and (max-width: 425px) and (min-width: 320px) {
+
+     /* Banner Section */
+
+     .home_head {
+         font-size: 35px !important;
+     }
+
+     .home_sub_head {
+         font-size: 16px !important;
+     }
+
+     /* Home About Section */
+
+     .homePageHead {
+         color: #000000;
+         font-size: 28px !important;
+         font-weight: 700 !important;
+     }
+
+     /* Practice Section */
+
+     .practice_card_head {
+         font-size: 18px !important;
+         line-height: 30px !important;
+         font-weight: 600 !important;
+     }
+
+     .practice_card p {
+         color: #555555;
+         font-size: 15px;
+     }
+
+     /* counter_section */
+
+     .counter_section {
+         padding: 65px 50px;
+     }
+
+     .count_head {
+         font-size: 16px !important;
+         padding-top: 15px;
+     }
+
+     .count_count {
+         font-size: 35px !important;
+     }
+
+     .count_icon {
+         font-size: 45px !important;
+         color: #c6ac82;
+     }
+
+     .count_icon_1 {
+         position: absolute;
+     }
+
+     .count_icon_2 {
+         position: absolute;
+     }
+
+     .count_icon_3 {
+         position: absolute;
+     }
+
+     .count_icon_4 {
+         position: absolute;
+     }
+
+     /* Testimonial Section */
+
+     .testimonial_section {
+         padding: 50px 0px 80px !important;
+     }
+
+     /* Contact Section */
+
+     .contact_section {
+         padding: 0px 40px 50px;
+     }
+ }
+
+ @media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+     /* Banner Section */
+
+     .home_head {
+         font-size: 50px !important;
+     }
+
+     .home_sub_head {
+         font-size: 18px !important;
+     }
+
+     /* Home About Section */
+
+     .homePageHead {
+         color: #000000;
+         font-size: 38px !important;
+         font-weight: 700 !important;
+     }
+
+     /* Practice Section */
+
+     .practice_card_head {
+         font-size: 20px !important;
+         line-height: 30px !important;
+         font-weight: 600 !important;
+     }
+
+     /* Testimonial Section */
+
+     .testimonial_section {
+         padding: 100px 30px;
+     }
+
+     /* counter_section */
+
+     .counter_section {
+         padding: 80px 85px;
+     }
+
+     .count_head {
+         font-size: 20px !important;
+         padding-top: 15px;
+     }
+
+     .count_count {
+         font-size: 45px !important;
+     }
+
+     .count_icon {
+         font-size: 48px !important;
+         color: #c6ac82;
+     }
+
+     .count_icon_1 {
+         position: absolute;
+     }
+
+     .count_icon_2 {
+         position: absolute;
+     }
+
+     .count_icon_3 {
+         position: absolute;
+     }
+
+     .count_icon_4 {
+         position: absolute;
+     }
+
+     /* Contact Section */
+
+     .contact_section {
+         padding: 50px 60px;
+     }
+
+
+ }
+
+ @media only screen and (max-width: 2560px) and (min-width: 1440px) {
+
+     /* Banner Section */
+
+     .home_head {
+         font-size: 55px !important;
+     }
+
+     .home_sub_head {
+         font-size: 20px;
+     }
+
+     /* Home About Section */
+
+     .homePageHead {
+         color: #000000;
+         font-size: 48px !important;
+         font-weight: 700 !important;
+     }
+
+     /* Practice Section */
+
+     .practice_card_head {
+         font-size: 24px !important;
+         line-height: 30px !important;
+         font-weight: 600 !important;
+     }
+
+     /* counter_section */
+
+     .counter_section {
+         padding: 100px 85px;
+     }
+
+     .count_head {
+         font-size: 20px !important;
+         padding-top: 15px;
+     }
+
+     .count_count {
+         font-size: 50px
+     }
+
+     .count_icon {
+         font-size: 50px !important;
+         color: #c6ac82;
+     }
+
+     .count_icon_1 {
+         position: absolute;
+     }
+
+     .count_icon_2 {
+         position: absolute;
+     }
+
+     .count_icon_3 {
+         position: absolute;
+     }
+
+     .count_icon_4 {
+         position: absolute;
+     }
+
+     /* Contact Section */
+
+     .contact_section {
+         padding: 50px 0px;
+     }
+
+ }
+
+
+ .rotate_img:hover {
+     transform: rotateY(3.142rad);
+     filter: drop-shadow(2px 4px 6px black);
+ }

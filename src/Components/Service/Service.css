@@ -1,0 +1,379 @@
+/* Service Page Section */
+
+.service_page {
+    background-color: #343434;
+    padding: 120px 50px;
+    border-top-right-radius: 30px;
+    color: #fff;
+}
+
+.service_p {
+    font-weight: 700;
+    color: #b89b5e;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Practice Service */
+
+.practice_service {
+    background-color: #fff;
+    padding: 30px 20px;
+}
+
+.practice_service_icon_arrow {
+    color: #b89b5e;
+}
+
+/* Clint Page */
+
+.clint_page_img {
+    filter: grayscale(100%);
+    padding: 110px 0px;
+    background-color: #fff;
+}
+
+.clint_page_img:hover {
+    filter: none;
+    background-color: #f8f8f8;
+}
+
+/* Estimate Service */
+
+.estimate_input {
+    border: 2px solid #e7e7e7;
+    outline: none;
+    padding: 20px 50px;
+    position: relative;
+}
+
+.input_class {
+    box-shadow: none !important;
+}
+
+.e_title {
+    font-size: 14px;
+    left: -130px;
+    position: absolute;
+}
+
+/* MUI Slider */
+
+/* Slider Color */
+.css-1aznpnh-MuiSlider-root {
+    border-radius: 12px;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    touch-action: none;
+    color: #b89b5e !important;
+    -webkit-tap-highlight-color: transparent;
+    height: 4px;
+    width: 100%;
+    padding: 13px 0;
+    margin-bottom: 20px;
+}
+
+.css-fk6q5t-MuiSlider-root {
+    border-radius: 12px;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    touch-action: none;
+    color: #b89b5e !important;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+    width: 4px;
+    padding: 0 13px;
+    margin-right: 44px;
+}
+
+/* Slider Fonts */
+
+.css-1eoe787-MuiSlider-markLabel {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700 !important;
+    font-size: 35px !important;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgba(0, 0, 0, 0.87);
+    position: absolute;
+    white-space: nowrap;
+    top: 30px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.css-yafthl-MuiSlider-markLabel {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700 !important;
+    font-size: 35px !important;
+}
+
+/* Responsive Media Query */
+
+/* Mobile View */
+
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+
+    /* Service Page Section */
+
+    .service_page {
+        background-color: #343434;
+        padding: 60px 30px;
+        border-top-right-radius: 30px;
+        color: #fff;
+    }
+
+    .stack_Btn_service {
+        margin: 10px 0px !important;
+    }
+
+    /* Practice Service */
+
+    .practice_service_head {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .practice_service_icon {
+        font-size: 45px !important;
+        color: #b89b5e;
+    }
+
+    .practice_service_P {
+        color: #656565;
+        font-size: 14px;
+        line-height: 1.714;
+    }
+
+    /* Estimate Service */
+
+
+    .estimate_input {
+        border: 2px solid #e7e7e7;
+        outline: none;
+        padding: 20px 53px;
+        position: relative;
+    }
+
+    .esitimate_contact_icons {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+
+    .estimate_input_1 {
+        width: 63%;
+    }
+
+    .estimate_input_2 {
+        width: 63%;
+    }
+
+    .input_class {
+        box-shadow: none !important;
+        text-align: center;
+    }
+
+    .estimate_textarea_input {
+        width: 80%;
+        padding: 20px 0px 20px 38px;
+    }
+
+    .estimate_pencil_icon {
+        position: absolute;
+        left: 23px;
+        top: 18px;
+    }
+
+    /* Slider Fonts */
+
+    .css-xxsb21-MuiSlider-markLabel {
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 18px !important;
+    }
+
+    .css-19l5h75-MuiSlider-markLabel {
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 18px !important;
+    }
+
+    /* Watermark */
+
+    .watermark_head_services {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        z-index: 0;
+        font-size: 55px !important;
+        font-weight: 600 !important;
+        bottom: 41vh;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.1);
+        letter-spacing: 10px !important;
+    }
+}
+
+/* Tablet View */
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    /* Practice Service */
+
+    .practice_service_head {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .practice_service_icon {
+        font-size: 50px !important;
+        color: #b89b5e;
+    }
+
+    .practice_service_P {
+        color: #656565;
+        font-size: 15px;
+        line-height: 1.714;
+    }
+
+    /* Estimate Service */
+
+    .esitimate_contact_icons {
+        position: absolute;
+        top: 15px;
+        left: 40px;
+    }
+
+
+    .estimate_input_1 {
+        width: 83%;
+    }
+
+    .estimate_input_2 {
+        width: 83%;
+    }
+
+    .input_class {
+        box-shadow: none !important;
+        text-align: center;
+    }
+
+    .estimate_textarea_input {
+        width: 90%;
+        padding: 20px 0px 20px 50px;
+    }
+
+    .estimate_pencil_icon {
+        position: absolute;
+        left: 40px;
+        top: 18px;
+    }
+
+    /* Slider Fonts */
+
+    .css-19l5h75-MuiSlider-markLabel {
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 20px !important;
+    }
+
+    .css-xxsb21-MuiSlider-markLabel {
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 20px !important;
+    }
+
+    /* Watermark */
+
+    .watermark_head_services {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        z-index: 0;
+        font-size: 150px !important;
+        font-weight: 600 !important;
+        bottom: 35vh;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.1);
+        letter-spacing: 10px !important;
+    }
+}
+
+/* Destop View */
+
+@media only screen and (max-width: 2560px) and (min-width: 1440px) {
+
+    /* Practice Service */
+
+    .practice_service_head {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .practice_service_icon {
+        font-size: 60px !important;
+        color: #b89b5e;
+    }
+
+    .practice_service_P {
+        color: #656565;
+        font-size: 16px;
+        line-height: 1.714;
+    }
+
+    /* Estimate Service */
+
+    .esitimate_contact_icons {
+        position: absolute;
+        top: 17px;
+        left: 10px;
+    }
+
+    .estimate_input_1 {
+        width: 80%;
+    }
+
+    .estimate_input_2 {
+        width: 70%;
+    }
+
+    .estimate_textarea_input {
+        width: 95%;
+        padding: 20px 0px 20px 50px;
+    }
+
+    .estimate_pencil_icon {
+        position: absolute;
+        left: 15px;
+        top: 18px;
+    }
+
+    /* Watermark */
+
+    .watermark_head_services {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        z-index: 0;
+        font-size: 300px !important;
+        font-weight: 600 !important;
+        bottom: 28vh;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.1);
+        letter-spacing: 10px !important;
+    }
+}

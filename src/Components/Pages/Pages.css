@@ -1,0 +1,101 @@
+/* Tabs FAQ */
+
+.css-1aquho2-MuiTabs-indicator {
+    position: absolute;
+    height: 75px !important;
+    bottom: 0;
+    width: 100%;
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #b89b5e !important;
+}
+
+.css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #fff !important;
+    z-index: 1;
+}
+
+
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+
+    /* Tabs - FlexContainer */
+    .css-heg063-MuiTabs-flexContainer {
+        flex-direction: column;
+        display: flex;
+        overflow-x: hidden;
+    }
+
+    .css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
+        color: #fff !important;
+        background: #b89b5e;
+    }
+
+    .css-1aquho2-MuiTabs-indicator {
+        height: 0px !important;
+    }
+
+    /* Accordian */
+
+    .accordian_head {
+        font-size: 9px !important;
+    }
+
+    .accordian_p {
+        font-size: 12px !important;
+    }
+
+    /* Watermark */
+
+    .watermark_head_pages {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        z-index: 0;
+        font-size: 55px !important;
+        font-weight: 600 !important;
+        bottom: 51vh;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.1);
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    /* Watermark */
+
+    .watermark_head_pages {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        z-index: 0;
+        font-size: 150px !important;
+        font-weight: 600 !important;
+        bottom: 45vh;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1440px) {
+
+    /* Watermark */
+
+    .watermark_head_pages {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        z-index: 0;
+        font-size: 300px !important;
+        font-weight: 600 !important;
+        bottom: 38vh;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.1);
+    }
+}

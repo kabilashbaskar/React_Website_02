@@ -1,0 +1,30 @@
+Header .nav_box {
+    width: 7px;
+    height: 7px;
+    background-color: #c6ac82;
+    position: absolute;
+    left: -15px;
+    top: 10px;
+}
+
+.nav_list {
+    position: absolute !important;
+    left: 15vw;
+    top: 0px;
+}
+
+.nav_items {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-weight: 500;
+}
+
+.active {
+    border-bottom: 1px solid #eee;
+}
+
+
+.header_btn:hover{
+    background-color: #fff !important;
+}

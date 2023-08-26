@@ -1,0 +1,334 @@
+/* Common Css */
+
+.mui_icons {
+    vertical-align: middle;
+}
+
+.img_responsive {
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins" !important;
+}
+
+.newsLetter_input {
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+    position: relative;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.about_sec_title {
+    font-weight: 700 !important;
+    color: #b89b5e;
+    letter-spacing: 3px !important;
+    text-transform: uppercase;
+}
+
+
+/* Common Css End */
+
+/* About Service */
+
+.about_list_item_icon {
+    border: 2px solid #e1dfdc;
+    border-radius: 50%;
+    padding: 5px;
+    color: #b89b5e;
+}
+
+.about_card {
+    filter: brightness(0.5);
+}
+
+.about_card_content {
+    bottom: 50px;
+    z-index: 2;
+    left: 50px;
+    width: 275px;
+    position: absolute;
+}
+
+/* About Service End*/
+
+/* Responsive Media Query */
+
+/* Mobile View */
+
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+
+    /* Banner */
+
+    .main_head {
+        color: #fff;
+        font-size: 35px !important;
+        font-weight: 600 !important;
+        letter-spacing: 5px !important;
+        text-align: center;
+    }
+
+    /* About Content */
+
+    .main_sub_head {
+        font-size: 28px !important;
+        font-weight: 600 !important;
+    }
+
+    .sub_main_p {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        padding: 30px 0px 25px;
+    }
+
+    .about_details_text {
+        font-size: 14px;
+        color: "#343434";
+    }
+
+    .about_list_item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* About Call Action */
+
+    .about_call_action {
+        display: flex;
+        flex-direction: column;
+        gap: 25px !important;
+    }
+
+    .about_call_action_text {
+        font-size: 33px !important;
+        font-weight: 600 !important;
+        color: #fff;
+        text-align: center;
+    }
+
+    /* About Practice */
+
+    .about_practice_sub_head {
+        font-size: 19px !important;
+        font-weight: 500 !important;
+    }
+
+    .about_practice_text {
+        text-align: start;
+        padding-top: 10px;
+        font-size: 13px !important;
+    }
+
+    .about_practice {
+        color: #b89b5e;
+        padding-bottom: 10px;
+        font-size: 16px !important;
+    }
+
+    .about_practice_head {
+        font-size: 25px !important;
+        font-weight: 600 !important;
+    }
+
+    /* App Download */
+
+    .stack_Btn {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .stack_Btn_2 {
+        margin: 29px 0px !important;
+    }
+
+    /* Button */
+
+    .css-pl8gqh-MuiStack-root>:not(style)~:not(style) {
+        margin-left: 0px !important;
+    }
+
+    /* Watermark */
+
+    .watermark_head_about {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        z-index: 0;
+        font-size: 70px !important;
+        font-weight: 600 !important;
+        bottom: 39vh;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.1);
+    }
+
+}
+
+/* Tablet View */
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    /* Banner */
+
+    .main_head {
+        color: #fff;
+        font-size: 70px !important;
+        font-weight: 600 !important;
+        letter-spacing: 5px !important;
+    }
+
+    /* About Content */
+
+    .main_sub_head {
+        font-size: 50px !important;
+        font-weight: 600 !important;
+    }
+
+    .sub_main_p {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding: 30px 0px 25px;
+    }
+
+    .about_list_item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* About Call Action */
+
+    .about_call_action {
+        display: flex;
+        flex-direction: column;
+        gap: 25px !important;
+    }
+
+    .about_call_action_text {
+        font-size: 50px !important;
+        font-weight: 600 !important;
+        color: #fff;
+    }
+
+    /* About Practice */
+
+    .about_practice_sub_head {
+        font-size: 23px !important;
+        font-weight: 500 !important;
+    }
+
+    .about_practice_text {
+        text-align: start;
+        padding-top: 10px;
+        font-size: 14px !important;
+    }
+
+    .about_practice {
+        color: #b89b5e;
+        padding-bottom: 10px;
+    }
+
+    .about_practice_head {
+        font-size: 45px !important;
+        font-weight: 600 !important;
+    }
+
+    /* Watermark */
+
+    .watermark_head_about {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        z-index: 0;
+        font-size: 150px !important;
+        font-weight: 600 !important;
+        bottom: 35vh;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.1);
+    }
+
+}
+
+/* Destop View */
+
+@media only screen and (max-width: 2560px) and (min-width: 1440px) {
+
+    /* Banner */
+
+    .main_head {
+        color: #fff;
+        font-size: 100px !important;
+        font-weight: 600 !important;
+        letter-spacing: 5px !important;
+    }
+
+    /* About Content */
+
+    .main_sub_head {
+        font-size: 60px !important;
+        font-weight: 600 !important;
+    }
+
+    .sub_main_p {
+        font-size: 19px !important;
+        font-weight: 500 !important;
+        padding: 30px 0px 25px;
+    }
+
+    /* About Call Action */
+
+    .about_call_action_text {
+        font-size: 60px !important;
+        font-weight: 600 !important;
+        color: #fff;
+    }
+
+    /* About Practice */
+
+    .about_practice_sub_head {
+        font-size: 24px !important;
+        font-weight: 500 !important;
+    }
+
+    .about_practice_text {
+        text-align: start;
+        padding-top: 10px;
+    }
+
+    .about_practice {
+        color: #b89b5e;
+        padding-bottom: 10px;
+    }
+
+    .about_practice_head {
+        font-size: 60px !important;
+        font-weight: 600 !important;
+    }
+
+    /* Watermark */
+
+    .watermark_head_about {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        z-index: 0;
+        font-size: 300px !important;
+        font-weight: 600 !important;
+        bottom: 28vh;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.1);
+    }
+}

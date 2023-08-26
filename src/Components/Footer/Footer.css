@@ -1,0 +1,160 @@
+.footer_sec_list {
+    text-decoration: none !important;
+    color: #343434 !important;
+    cursor: pointer;
+}
+
+.footer_sec_list:hover {
+    text-decoration: underline !important;
+    color: #000 !important;
+    cursor: pointer;
+}
+
+.footer_sub {
+    padding: 30px 0px;
+    background-color: #222222;
+    border-bottom: 5px solid #c6ac82;
+    color: #fff;
+}
+
+.fb_icon {
+    margin: auto;
+}
+
+.list_item {
+    border: 1px solid;
+    padding: 10px !important;
+    cursor: pointer;
+}
+
+.list_item:hover {
+    border: 1px solid;
+    padding: 10px !important;
+    cursor: pointer;
+    background-color: #c6ac82;
+}
+
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+
+    .footer_head {
+        color: #000;
+        font-size: 23px !important;
+        font-weight: 700 !important;
+    }
+
+    .footer_sub_text {
+        color: #343434;
+        padding-top: 25px;
+        font-size: 13px !important;
+    }
+
+    .footer_sec_list {
+        font-size: 14px !important;
+    }
+
+    .copyright_text {
+        font-size: 13px !important;
+        text-align: center;
+    }
+
+    .footer_newsFeed_card{
+        width: 280px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+    .footer_head {
+        color: #000;
+        font-size: 25px !important;
+        font-weight: 700 !important;
+    }
+
+    .footer_sub_text {
+        color: #343434;
+        padding-top: 25px;
+        font-size: 15px !important;
+    }
+
+    .footer_sec_list {
+        font-size: 15px !important;
+    }
+
+    .copyright_text {
+        font-size: 14px !important;
+    }
+
+    .dash_line {
+        position: absolute;
+        background-color: #c6ac82;
+        width: 42px;
+        height: 3px;
+        top: 16px;
+        left: 165px;
+    }
+
+    .dash_line2 {
+        position: absolute;
+        background-color: #c6ac82;
+        width: 42px;
+        height: 3px;
+        top: 16px;
+        left: 240px;
+    }
+
+    .dash_line3 {
+        position: absolute;
+        background-color: #c6ac82;
+        width: 42px;
+        height: 3px;
+        top: 16px;
+        left: 220px;
+    }
+
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1440px) {
+    .footer_head {
+        color: #000;
+        font-size: 30px !important;
+        font-weight: 700 !important;
+    }
+
+    .copyright_text {
+        font-size: 16px !important;
+    }
+
+    .dash_line {
+        position: absolute;
+        background-color: #c6ac82;
+        width: 42px;
+        height: 3px;
+        top: 16px;
+        right: 100px;
+    }
+
+    .dash_line2 {
+        position: absolute;
+        background-color: #c6ac82;
+        width: 42px;
+        height: 3px;
+        top: 16px;
+        left: 240px;
+    }
+
+    .dash_line3 {
+        position: absolute;
+        background-color: #c6ac82;
+        width: 42px;
+        height: 3px;
+        top: 16px;
+        right: 50px;
+    }
+
+    .footer_sub_text {
+        color: #343434;
+        padding-top: 20px;
+    }
+
+}
